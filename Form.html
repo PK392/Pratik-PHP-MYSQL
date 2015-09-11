@@ -1,11 +1,29 @@
 <html>
 <body>
-<h1>A small example page to insert some data in to the MySQL database using PHP</h1>
+<h1>Kindly fill your Details </h1>
 <form action="insert.php" method="post">
+StudentId:<input type ="text" name="sid" /><br><br>
 Firstname: <input type="text" name="fname" /><br><br>
 Lastname: <input type="text" name="lname" /><br><br>
- 
+<p1>"Please Select your skill" </p1><br>
+<select>
+  <option value="JAVA">JAVA</option>
+  <option value="C/C++">C/C++</option>
+  <option value="UNIX">UNIX</option>
+  <option value="HTML/CSS">HTML/CSS</option>
+</select><br><br>
+<p1>"How do you rate yourself in the above skills :" </p1>
+<p1>"1-4 - Beginner  : 5-7 -Moderate :8-10- Expert"</p1>
+ <select>
+  <option value="Beginner">Beginner</option>
+  <option value="Moderate">Moderate</option>
+  <option value="Expert">Expert</option>
+  
+</select><br><br>
+Comments:<br>
+<textarea name='comment' id='comment'></textarea><br />
 <input type="Submit"  name="SubmitButton" value="Submit_Query" />
+
 </form>
 </body>
 </html>
