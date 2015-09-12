@@ -12,13 +12,13 @@ mysql_select_db("$database");
 
 $order = "INSERT INTO USERS
 
-        (Firstname, Lastname)
+        (Student_id,Firstname, Lastname,Skill,Rating,Comment)
 
         VALUES
 
-        ('$fname',
+        ('$sid','$fname',
 
-        '$lname')";
+        '$lname','$selectvalue','$selected','$comment')";
 
 
 $result = mysql_query($order);
