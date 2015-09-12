@@ -10,7 +10,7 @@ mysql_connect("$server","$user_name","$password");
 mysql_select_db("$database");
 
 
-$order = "INSERT INTO USERS
+$order = "INSERT INTO Candidates
 
         (Student_id,Firstname, Lastname,Skill,Rating,Comment)
 
