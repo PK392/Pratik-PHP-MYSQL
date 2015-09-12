@@ -12,7 +12,7 @@ mysql_select_db("$database");
 
 $order = "INSERT INTO Candidates
 
-        (Student_id,Firstname, Lastname,Skill,Rating,Comment)
+        (Sid,Firstname, Lastname,Skill,Rating,Comment)
 
         VALUES
 
