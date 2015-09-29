@@ -17,7 +17,7 @@ while($data=mysql_fetch_array($sql))
 	$datas[]=$data;
 	//Running a loop all contents in the Mysql Table
 	echo '<tr>';
-	echo '<a href="InsertEmp.php?DeptName=.$datas['Dname']"><td>.$datas[\'Dept_Id\'] </td></a>';
+	echo '<a href="CreateEmp.php?DeptName=<? php echo \".$datas['Dname']\" ; ?> ><td>.$datas[\'Dept_Id\'] </td></a>';
 	echo '</tr>';
 	
 }
