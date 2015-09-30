@@ -35,11 +35,11 @@ $result = mysql_query($order);
 
 if($result){
 
-    echo("<br>Input data is succeed");
+    echo("Input data is succeed");
 
 } else{
 
-    echo("<br>Input data failed");
+    echo("Input data failed");
 
 }
 
